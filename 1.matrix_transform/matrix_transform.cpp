@@ -22,7 +22,7 @@ showHelp(char * program_name)
 int
 main(int argc, char** argv)
 {
-
+	
 	// Show help
 	if (pcl::console::find_switch(argc, argv, "-h") || pcl::console::find_switch(argc, argv, "--help")) {
 		showHelp(argv[0]);
